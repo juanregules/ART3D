@@ -10,8 +10,11 @@ public class ChangeScene : MonoBehaviour
 
 		if (Application.platform == RuntimePlatform.Android) {
 			if (Input.GetKey (KeyCode.Escape)) {
-				changeToScene (0);
-				return;
+				if (SceneManager.GetActiveScene ().buildIndex == 0) {
+					Application.Quit ();
+				} else {
+					changeToScene (0);
+				}
 			}
 		}
 	}

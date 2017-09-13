@@ -12,21 +12,24 @@ public class InvisibleObjects : MonoBehaviour {
 		foreach (Transform child in transform) {
 			child.gameObject.SetActive (false); //desactivar todos los modelos
 			if (TrophyCollect.trofeos.Contains (child.gameObject.name)) {
-				modelos.Add (child.gameObject); //agregar trofeos a lista de trofeos obtenidos
+				modelos.Add(child.gameObject); //agregar trofeos a lista de trofeos obtenidos
 			}
 		}
-		if (TrophyCollect.trofeos.Count == 0) { //si no hay trofeos obtenidos desactivar componentes de navegación
+		if (TrophyCollect.trofeos.Count == 0) { //si no hay más de un trofeo obtenido desactivar componentes de navegación
 			GameObject.Find("ChangeModelR").SetActive(false);
 			GameObject.Find("ChangeModelL").SetActive(false);
 		} else {
+			if (TrophyCollect.trofeos.Count == 1) {
+				GameObject.Find("ChangeModelR").SetActive(false);
+				GameObject.Find("ChangeModelL").SetActive(false);
+			}
+			GameObject.Find ("NoTrophies").SetActive (false); //desactivar mensaje de no trofeos
 			modelos[0].SetActive (true); //activar primer modelo
 			ActiveTrophy = modelos [0]; //asignar primer modelo a variable de trofeo activo
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-
+	void OnDestroy () {
+		modelos.Clear (); //limpiar variable estática cuando hay cambio de escena
 	}
 }
