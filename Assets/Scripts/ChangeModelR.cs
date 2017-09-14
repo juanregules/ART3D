@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChangeModelR : MonoBehaviour {
 
@@ -23,9 +24,11 @@ public class ChangeModelR : MonoBehaviour {
 		if (indice + 1 == InvisibleObjects.modelos.Count) { //si ya es el último índice
 			InvisibleObjects.modelos [0].SetActive (true); //regresar a primer modelo
 			InvisibleObjects.ActiveTrophy = InvisibleObjects.modelos [0]; //asignar primer modelo a la variable trofeo activo
+			GameObject.Find("ModelName").GetComponent<Text>().text = InvisibleObjects.modelos [0].name; //asignar nombre del modelo a visualización
 		} else { //si no es el último índice
 			InvisibleObjects.modelos[indice+1].SetActive(true); //activar siguiente modelo en la lista
 			InvisibleObjects.ActiveTrophy = InvisibleObjects.modelos [indice+1]; //asignar ese modelo a la variable trofeo activo
+			GameObject.Find("ModelName").GetComponent<Text>().text = InvisibleObjects.modelos [indice+1].name; //asignar nombre del modelo a visualización
 		}
 
 	}

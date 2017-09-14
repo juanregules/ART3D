@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InvisibleObjects : MonoBehaviour {
 
@@ -25,6 +26,7 @@ public class InvisibleObjects : MonoBehaviour {
 			}
 			GameObject.Find ("NoTrophies").SetActive (false); //desactivar mensaje de no trofeos
 			modelos[0].SetActive (true); //activar primer modelo
+			GameObject.Find("ModelName").GetComponent<Text>().text = modelos[0].name; //asignar nombre del modelo a visualización
 			ActiveTrophy = modelos [0]; //asignar primer modelo a variable de trofeo activo
 		}
 	}
