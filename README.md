@@ -1,4 +1,5 @@
-# ART3D (Nombre oficial)
+# ARFinale 
+(Nombre Provicional)
 
 Este proyecto esta diseñado en Unity junto con Vuforia, para la visualización de elementos virtuales por medio de Realidad Aumentada,
 la versión que encuentras aquí se encuentra pública para alumnos, profesores y colaboradores del ITESM (Instituto Tecnológico de Estudios Superiores Monterrey).
@@ -29,6 +30,4 @@ Para hacer pruebas de con mobiles es Android es necesario que descargues [Androi
 **Xcode: v8**
 
 [Apple Developer](https://developer.apple.com/)
-
-
 
