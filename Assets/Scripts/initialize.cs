@@ -12,7 +12,7 @@ public class initialize : MonoBehaviour {
 
 	void Start () {
 		hidden.SetActive (false);
-		objetos.SetActive (true);
+		//objetos.SetActive (true);
 	}
 		
 	// Update is called once per frame
