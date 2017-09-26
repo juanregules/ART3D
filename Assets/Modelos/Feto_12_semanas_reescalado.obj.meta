@@ -1,22 +1,17 @@
 fileFormatVersion: 2
-guid: 815bf46a4b10e4958b9587adef0800ca
-timeCreated: 1506117766
+guid: ceccf17cdb0f54a3588928c429059d6f
+timeCreated: 1506466252
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Model__Fetus12WeekEyes
-    100004: Model__Fetus12WeeksBody
-    400000: //RootNode
-    400002: Model__Fetus12WeekEyes
-    400004: Model__Fetus12WeeksBody
-    2300000: Model__Fetus12WeekEyes
-    2300002: Model__Fetus12WeeksBody
-    3300000: Model__Fetus12WeekEyes
-    3300002: Model__Fetus12WeeksBody
-    4300000: Model__Fetus12WeekEyes
-    4300002: Model__Fetus12WeeksBody
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2300000: default
+    3300000: default
+    4300000: default
   materials:
     importMaterials: 1
     materialName: 0
