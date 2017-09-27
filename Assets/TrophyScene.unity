@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -220,10 +220,6 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9109c5d760466448daf582dd20ec9cdc, type: 3}
-      propertyPath: m_Name
-      value: Disco Trilaminar
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9109c5d760466448daf582dd20ec9cdc, type: 3}
   m_IsPrefabParent: 0
@@ -342,7 +338,7 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!1 &439440499
@@ -654,8 +650,8 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 2, y: 2, z: 2}
+  ScaleClamp: 1
+  ScaleMin: {x: 4, y: 4, z: 4}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!1001 &567810415
 Prefab:
@@ -768,9 +764,9 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
-  ScaleMax: {x: 15, y: 15, z: 15}
+  ScaleMax: {x: 10, y: 10, z: 10}
 --- !u!1001 &680151756
 Prefab:
   m_ObjectHideFlags: 0
@@ -882,9 +878,9 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 2, y: 2, z: 2}
-  ScaleMax: {x: 15, y: 15, z: 15}
+  ScaleClamp: 1
+  ScaleMin: {x: 10, y: 10, z: 10}
+  ScaleMax: {x: 30, y: 30, z: 30}
 --- !u!1 &724737928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,7 +1072,7 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!1001 &1085505722
@@ -1190,7 +1186,7 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!1 &1190848242
@@ -1257,7 +1253,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
@@ -1608,7 +1604,7 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!114 &1416814916
@@ -1622,7 +1618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c738e6e52224377a747a20d066ea8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 2
+  sensitivity: 1
 --- !u!1 &1523359664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,8 +2813,8 @@ MonoBehaviour:
   WheelSensitivity: 0.32
   Camera: {fileID: 1290583254}
   Relative: 0
-  ScaleClamp: 0
-  ScaleMin: {x: 2, y: 2, z: 2}
+  ScaleClamp: 1
+  ScaleMin: {x: 0.5, y: 0.5, z: 0.5}
   ScaleMax: {x: 15, y: 15, z: 15}
 --- !u!1001 &1768060879
 Prefab:
@@ -2913,7 +2909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c738e6e52224377a747a20d066ea8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 2
+  sensitivity: 5
 --- !u!114 &1768060883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3099,7 +3095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -109}
+  m_AnchoredPosition: {x: 24, y: -109}
   m_SizeDelta: {x: 485.6, y: 53.1}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1795397930
@@ -3134,7 +3130,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: No hay objetos coleccionados
+  m_Text: No hay objetos vistos.
 --- !u!222 &1795397931
 CanvasRenderer:
   m_ObjectHideFlags: 0

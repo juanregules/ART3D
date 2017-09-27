@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -770,15 +770,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 289fb932688734766a2361d63450f4ab, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 289fb932688734766a2361d63450f4ab, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 289fb932688734766a2361d63450f4ab, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 289fb932688734766a2361d63450f4ab, type: 3}
       propertyPath: m_Name
@@ -809,7 +809,7 @@ MonoBehaviour:
   Camera: {fileID: 856551642}
   Relative: 0
   ScaleClamp: 1
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
+  ScaleMin: {x: 1, y: 1, z: 1}
   ScaleMax: {x: 4, y: 4, z: 4}
 --- !u!114 &239264809
 MonoBehaviour:
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c738e6e52224377a747a20d066ea8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 1
+  sensitivity: 5
 --- !u!1 &377895419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,10 +1442,6 @@ Prefab:
     - target: {fileID: 100000, guid: 9109c5d760466448daf582dd20ec9cdc, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 9109c5d760466448daf582dd20ec9cdc, type: 3}
-      propertyPath: m_Name
-      value: Disco Trilaminar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9109c5d760466448daf582dd20ec9cdc, type: 3}
@@ -1997,15 +1993,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98b0f1c213cf74fd787d022236335127, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98b0f1c213cf74fd787d022236335127, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98b0f1c213cf74fd787d022236335127, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: 98b0f1c213cf74fd787d022236335127, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2052,7 +2048,7 @@ MonoBehaviour:
   Camera: {fileID: 856551642}
   Relative: 0
   ScaleClamp: 1
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
+  ScaleMin: {x: 1, y: 1, z: 1}
   ScaleMax: {x: 4, y: 4, z: 4}
 --- !u!114 &818263981
 MonoBehaviour:
@@ -3075,7 +3071,7 @@ MonoBehaviour:
   Relative: 0
   ScaleClamp: 1
   ScaleMin: {x: 0.5, y: 0.5, z: 0.5}
-  ScaleMax: {x: 2, y: 2, z: 2}
+  ScaleMax: {x: 3, y: 3, z: 3}
 --- !u!114 &891172702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3175,7 +3171,7 @@ MonoBehaviour:
   WheelSensitivity: 0
   Camera: {fileID: 856551642}
   Relative: 0
-  ScaleClamp: 0
+  ScaleClamp: 1
   ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 14, y: 14, z: 14}
 --- !u!114 &913495990
@@ -3526,7 +3522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51c738e6e52224377a747a20d066ea8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 2
+  sensitivity: 5
 --- !u!114 &1163438745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3943,7 +3939,7 @@ MonoBehaviour:
   Camera: {fileID: 856551642}
   Relative: 0
   ScaleClamp: 1
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
+  ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 10, y: 10, z: 10}
 --- !u!114 &1213064154
 MonoBehaviour:
@@ -4255,7 +4251,7 @@ MonoBehaviour:
   Camera: {fileID: 856551642}
   Relative: 0
   ScaleClamp: 1
-  ScaleMin: {x: 1, y: 1, z: 1}
+  ScaleMin: {x: 10, y: 10, z: 10}
   ScaleMax: {x: 30, y: 30, z: 30}
 --- !u!114 &1339964651
 MonoBehaviour:
@@ -5090,15 +5086,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 381c779fd3c5e4fa3a10928548f5cbaf, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 381c779fd3c5e4fa3a10928548f5cbaf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 381c779fd3c5e4fa3a10928548f5cbaf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 381c779fd3c5e4fa3a10928548f5cbaf, type: 3}
       propertyPath: m_Name
@@ -5129,7 +5125,7 @@ MonoBehaviour:
   Camera: {fileID: 856551642}
   Relative: 0
   ScaleClamp: 1
-  ScaleMin: {x: 0.2, y: 0.2, z: 0.2}
+  ScaleMin: {x: 2, y: 2, z: 2}
   ScaleMax: {x: 6, y: 6, z: 6}
 --- !u!114 &1649096067
 MonoBehaviour:
