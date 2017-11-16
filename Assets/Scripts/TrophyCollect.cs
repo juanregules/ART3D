@@ -15,7 +15,6 @@ public class TrophyCollect : MonoBehaviour {
 			//separar el string de la memoria y convertirlo en la lista de objetos
 			foreach (string objetos in PlayerPrefs.GetString("trofeos").Split(',')) {
 				trofeos.Add (objetos);
-				Debug.Log (objetos);
 			}
 		}
 	}

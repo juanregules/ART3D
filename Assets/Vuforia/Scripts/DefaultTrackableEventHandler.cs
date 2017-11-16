@@ -95,7 +95,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 			TrophyCollect.trofeos.Add (gameObject.transform.GetChild (0).name); //agregar trofeo a la colección
 			string[] stringArray = TrophyCollect.trofeos.ToArray (); //convertir lista de trofeos en un array
 			PlayerPrefs.SetString ("trofeos", string.Join (",", stringArray)); //agregar a la memoria los trofeos en 1 string a partir del array
-
 		}
     }
 
