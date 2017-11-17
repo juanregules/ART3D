@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.57482487, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -717,6 +717,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 38815a47a0cfd4508b8d9aa38e3e38ea, type: 3}
+      propertyPath: m_Name
+      value: Feto 31Sem
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 38815a47a0cfd4508b8d9aa38e3e38ea, type: 3}
   m_IsPrefabParent: 0
@@ -1303,7 +1307,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 335573819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00033569336, y: -354.0299, z: 0}
+  m_LocalPosition: {x: -0.00033569336, y: -438.178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 805712359}
@@ -1629,7 +1633,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477567679}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 339.95444, y: -354.0299, z: 0}
+  m_LocalPosition: {x: 274.86127, y: -438.178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 805712359}
@@ -1872,7 +1876,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 513580446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 288.65463, y: 312.63, z: 0}
+  m_LocalPosition: {x: 223.56146, y: 396.7781, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 805712359}
@@ -2437,8 +2441,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 805712358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 697, y: 728, z: 0}
-  m_LocalScale: {x: 2.0563235, y: 2.0563235, z: 2.0563235}
+  m_LocalPosition: {x: 400, y: 640, z: 0}
+  m_LocalScale: {x: 1.4605936, y: 1.4605936, z: 1.4605936}
   m_Children:
   - {fileID: 335573820}
   - {fileID: 1846174474}
@@ -2616,6 +2620,10 @@ Prefab:
     - target: {fileID: 400000, guid: eefcf5f9f100d4723a659fff4e3557e0, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: eefcf5f9f100d4723a659fff4e3557e0, type: 3}
+      propertyPath: m_Name
+      value: Feto 9Sem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eefcf5f9f100d4723a659fff4e3557e0, type: 3}
@@ -3497,6 +3505,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 305ec44e1887c4e2484e0935282c3773, type: 3}
+      propertyPath: m_Name
+      value: Feto 12Sem
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 305ec44e1887c4e2484e0935282c3773, type: 3}
   m_IsPrefabParent: 0
@@ -4038,6 +4050,7 @@ GameObject:
   - component: {fileID: 1356151154}
   - component: {fileID: 1356151153}
   - component: {fileID: 1356151152}
+  - component: {fileID: 1356151157}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: Untagged
@@ -4126,6 +4139,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1356151157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1356151151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3cfe3526d7514746b3e2f46f5fcbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1409888523
 GameObject:
   m_ObjectHideFlags: 0
@@ -4322,6 +4346,10 @@ Prefab:
     - target: {fileID: 400000, guid: 6a1cff1b579f54c2fa0db96efdf780c2, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6a1cff1b579f54c2fa0db96efdf780c2, type: 3}
+      propertyPath: m_Name
+      value: Feto 41Sem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a1cff1b579f54c2fa0db96efdf780c2, type: 3}
@@ -5918,7 +5946,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1744784470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -308.95444, y: 342.0299, z: 0}
+  m_LocalPosition: {x: -243.86127, y: 426.178, z: 0}
   m_LocalScale: {x: 1.5769804, y: 1.5588895, z: 1.0860128}
   m_Children: []
   m_Father: {fileID: 805712359}
@@ -6220,6 +6248,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ed16045eb790a41518d523f333d17a37, type: 3}
+      propertyPath: m_Name
+      value: Feto 6Sem
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed16045eb790a41518d523f333d17a37, type: 3}
   m_IsPrefabParent: 0
@@ -6289,7 +6321,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1846174473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -342.95444, y: -354.0299, z: 0}
+  m_LocalPosition: {x: -277.86127, y: -438.178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 805712359}

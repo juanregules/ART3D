@@ -86,18 +86,24 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             component.enabled = true;
 	
 		//código custom para recolección de trofeos
-
-		Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
-
-		if (TrophyCollect.trofeos.Contains (gameObject.transform.GetChild (0).name)) { //si el objeto ya está en la lista de trofeos
+        if (gameObject.transform.GetChild(0).name == "Models") {
+            if (TrophyCollect.trofeos.Contains(gameObject.transform.GetChild(0).transform.GetChild(0).name)) {
+                //nothing
+            } else {
+                foreach (Transform child in gameObject.transform.GetChild(0)) {
+                    TrophyCollect.trofeos.Add(child.name);
+                    string[] stringArray = TrophyCollect.trofeos.ToArray (); //convertir lista de trofeos en un array
+                    PlayerPrefs.SetString ("trofeos", string.Join (",", stringArray)); //agregar a la memoria los trofeos en 1 string a partir del array
+                } 
+            }
+        } else if (TrophyCollect.trofeos.Contains (gameObject.transform.GetChild (0).name)) { //si el objeto ya está en la lista de trofeos
 			//no hacer nada
-		} else { //si el objeto no está en la lista de trofeos
+		    } else { //si el objeto no está en la lista de trofeos
 			TrophyCollect.trofeos.Add (gameObject.transform.GetChild (0).name); //agregar trofeo a la colección
 			string[] stringArray = TrophyCollect.trofeos.ToArray (); //convertir lista de trofeos en un array
 			PlayerPrefs.SetString ("trofeos", string.Join (",", stringArray)); //agregar a la memoria los trofeos en 1 string a partir del array
-		}
+		    }
     }
-
 
     protected virtual void OnTrackingLost()
     {
