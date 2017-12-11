@@ -7,12 +7,12 @@ public class initialize : MonoBehaviour {
 
 	// Use this for initialization
 	public GameObject hidden;
-	public GameObject objetos;
+	public GameObject targets;
 
 
 	void Start () {
 		hidden.SetActive (false);
-		//objetos.SetActive (true);
+		targets.SetActive (false);
 	}
 		
 	// Update is called once per frame

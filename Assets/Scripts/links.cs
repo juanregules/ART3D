@@ -13,5 +13,8 @@ public class links : MonoBehaviour {
 	public void aviso(){
 		Application.OpenURL ("https://tec.mx/es/avisos-de-privacidad");
 	}
+	public void targets(){
+		Application.OpenURL ("https://canvas.instructure.com");
+	}
 }
 
