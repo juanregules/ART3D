@@ -1,20 +1,47 @@
 fileFormatVersion: 2
-guid: 9109c5d760466448daf582dd20ec9cdc
-timeCreated: 1506117758
-licenseType: Free
+guid: f9cec77c4fe9d4f7da36ff7bebd02f09
+timeCreated: 1513293212
+licenseType: Pro
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: pCube2_DUP15
+    100004: pCube2_DUP16
+    100006: pCube2_DUP17
+    100008: transform1
+    100010: transform2
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: pCube2_DUP15
+    400002: pCube2_DUP15
+    400004: pCube2_DUP16
+    400006: pCube2_DUP17
+    400008: transform1
+    400010: transform2
+    2300000: pCube2_DUP17
+    3300000: pCube2_DUP17
+    4300000: pCube2_DUP17
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disco_Trilaminar_MAIN
+    second: {fileID: 2100000, guid: 9ceabf9c9db5a41f4b65e8c36fc5c8bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disco_Trilaminar_blinn2
+    second: {fileID: 2100000, guid: 8f244c58ff6cb49d5b203fa8ba269038, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disco_Trilaminar_blinn3
+    second: {fileID: 2100000, guid: 2e28d652f946e435b86f710632784529, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -27,6 +54,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
